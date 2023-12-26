@@ -3,10 +3,6 @@ package second;
 import lombok.Getter;
 import lombok.Setter;
 
-enum Gender {
-    MALE, FEMALE
-}
-
 @Getter
 @Setter
 public class Client {
@@ -23,4 +19,9 @@ public class Client {
         this.sex = sex;
         this.age = age;
     }
+
+    public enum Gender {
+        MALE, FEMALE
+    }
 }
+

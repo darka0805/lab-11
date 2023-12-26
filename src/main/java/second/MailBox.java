@@ -8,15 +8,15 @@ public class MailBox  {
     private List<MailInfo> infos;
 
     public MailBox()  { 
-        mailSender = new MailSender() ; 
-        infos = new ArrayList<>() ; 
+        mailSender = new MailSender(); 
+        infos = new ArrayList<>(); 
     } 
 
-    public void addMailInfo(MailInfo mailInfo) {infos.add(mailInfo) ; } 
+    public void addMailInfo(MailInfo mailInfo) { infos.add(mailInfo); } 
 
     public void sendAll()  {
         for (MailInfo letter: infos) {
-            mailSender.sendMail(letter) ; 
+            mailSender.sendMail(letter); 
         } 
     } 
 } 
