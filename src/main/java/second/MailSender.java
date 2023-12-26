@@ -1,4 +1,4 @@
-package task2;
+package second;
 
 public class MailSender {
     public void sendMail(MailInfo mailInfo) {

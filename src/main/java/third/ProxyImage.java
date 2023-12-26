@@ -1,4 +1,4 @@
-package task3;
+package third;
 
 import lombok.AllArgsConstructor;
 

@@ -1,4 +1,4 @@
-package task3;
+package third;
 
 import javax.swing.JFrame;
 import javax.swing.ImageIcon;

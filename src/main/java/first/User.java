@@ -1,4 +1,4 @@
-package task1;
+package first;
 
 import lombok.AllArgsConstructor;
 import lombok.Singular;

@@ -1,4 +1,4 @@
-package task3;
+package third;
 
 public interface MyImage {
     void display();

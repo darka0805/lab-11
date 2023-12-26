@@ -1,4 +1,4 @@
-package task2;
+package second;
 
 public interface MailCode {
     String generate(Client client);

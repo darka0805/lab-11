@@ -1,4 +1,4 @@
-package task2;
+package second;
 
 public class Main {
     public static void main(String[] args) {
