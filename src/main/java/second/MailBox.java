@@ -7,14 +7,14 @@ public class MailBox {
     private MailSender mailSender;
     private List<MailInfo> infos;
 
-    public MailBox(){
+    public MailBox() {
         mailSender = new MailSender();
         infos = new ArrayList<>();
     }
 
     public void addMailInfo(MailInfo mailInfo) {infos.add(mailInfo);}
 
-    public void sendAll(){
+    public void sendAll() {
         for (MailInfo letter: infos) {
             mailSender.sendMail(letter);
         }
