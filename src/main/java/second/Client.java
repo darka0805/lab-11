@@ -6,13 +6,16 @@ import lombok.Setter;
 enum Gender {
     MALE, FEMALE
 }
-@Getter @Setter
+
+@Getter
+@Setter
 public class Client {
+    private static int count = 0;
+
     private int id;
     private String name;
     private Gender sex;
     private int age;
-    private static int count = 0;
 
     public Client(String name, Gender sex, int age) {
         id = ++count;
